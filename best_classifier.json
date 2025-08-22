@@ -1,0 +1,46 @@
+{
+  "model_name": "swinv2_base_window12to24_192to384",
+  "img_width": 384,
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "label_columns": [
+    "Open Water",
+    "Floating Vegetation",
+    "Reedlands & Permanent Swamps",
+    "Tall Seasonal Sedge Wetlands",
+    "Short Seasonal Grass Floodplains",
+    "Riparian Forest",
+    "Woodlands",
+    "Bare Ground / Dry Grass",
+    "Shrubland",
+    "[Lvl 2] Water Lily",
+    "[Lvl 2] Rafts",
+    "[Lvl 2] Salvinia / Other Fern",
+    "[Lvl 2] Papyrus",
+    "[Lvl 2] Phragmites / Miscanthus"
+  ],
+  "thresholds": [
+    0.22635243833065033,
+    0.5627273321151733,
+    0.5037246942520142,
+    0.009322427213191986,
+    0.8413581848144531,
+    0.060053806751966476,
+    0.03343411535024643,
+    0.807576596736908,
+    0.8574867844581604,
+    0.15232302248477936,
+    0.08891519159078598,
+    0.7730367183685303,
+    0.1205216571688652,
+    0.06715495884418488
+  ]
+}
